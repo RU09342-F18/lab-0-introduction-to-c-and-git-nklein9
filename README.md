@@ -37,4 +37,17 @@ Currently, your repository will be graded on the following pillars:
 * Is your code documented and the quality of documentation?
 * How easy is it to utilize/implement your code?
 
-The main reason we are utilizing git is so we can generate libraries of example code and drivers for you to use in the future and show to potential employers what you have done.
+## "Why are we using GIT? Can't we just use Blackboard or something?"
+The main reason we are utilizing git is so we can generate libraries of example code and drivers for you to use in the future and show to potential employers what you have done. It also provides you easy ways to manage code-bases using built-in feature such as versioning and branches. We know at first if you have never used GIT that it is going to seem like way too much of a hassle for what it is worth; but let me tell you, people last year were saved because they were able to go back to previous versions of their code base.
+
+### Git Tools
+For GIT, I recommend two main tools that you should grab:
+* GIT Bash
+* GITKraken
+Each of these will allow you to access you repository on your machine and perform all of the basic GIT tasks required. While you can get away with just one of these tools, it is really helpful to learn how to manage a repository both via command line and by a GUI program. Both of these tools are available for free.
+
+#### Git Bash
+Git bash will allow you to access and manage repositories through your command line or terminal. You need to go to [git](https://git-scm.com/downloads) for any OS. What this puts on your machine is the ability to utilize GIT repositories as well as add certain functions to your right-click if you are a Windows user. For MacOS and Linux, you already have a unix terminal built into the OS so you are just adding the GIT functionality. From here, you are able to start out with any tutorials you can find or are provided to you.
+
+#### GitKraken
+For this GUI, you will need to head over to [Axisoft](https://www.gitkraken.com/download) to get the client. This client is available for Windows, Mac, and Linux. Once you have installed it, it is pretty simple to get started: [GitKraken Setup Tutorial](https://youtu.be/ZKkMwTeAij4)

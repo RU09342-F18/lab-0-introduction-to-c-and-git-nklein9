@@ -2,7 +2,7 @@
  * math.h
  *
  *  Created on: Aug 22, 2017
- * 	Last Edited: Sept 5, 2017
+ * 	Last Edited: Sept 5, 2018
  *      Author: Russell Trafford
  */
 

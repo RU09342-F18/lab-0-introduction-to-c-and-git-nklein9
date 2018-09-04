@@ -12,6 +12,7 @@
  * * Multiply (num1 * num2)
  * / Divide (num1 / num2)
  * % Modulus (num1 % num2)
+ * ADD NEW BITWISE MATH
 */
 
 #ifndef MATH_H_

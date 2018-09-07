@@ -2,7 +2,7 @@
  * math.h
  *
  *  Created on: Aug 22, 2017
- * 	Last Edited: Sept 5, 2018
+ * 	Last Edited: Sept 7, 2018
  *      Author: Russell Trafford
  */
 
@@ -12,7 +12,12 @@
  * * Multiply (num1 * num2)
  * / Divide (num1 / num2)
  * % Modulus (num1 % num2)
- * ADD NEW BITWISE MATH
+ * < Left Shift (num1 << num2)
+ * > Right Shift (num1 >> num2)
+ * & Bitwise AND (num1 & num2)
+ * | Bitwise OR (num1 | num2)
+ * ^ Bitwise XOR (num1 ^ num2)
+ * ~ Bitwise Inverse (~num1) for this operation, num1 and num2 are still needed
 */
 
 #ifndef MATH_H_

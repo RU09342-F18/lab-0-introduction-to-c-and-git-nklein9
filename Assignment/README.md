@@ -3,7 +3,7 @@ Author: Nicholas Klein
 
 Includes:
 
-- math.h, Authored by Russell Trafford
+- math.h
    
 - math.c
 

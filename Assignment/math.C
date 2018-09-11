@@ -2,7 +2,7 @@
 //Introduction to Embedded Systems- Lab 0
 //September 10, 2018
 
-#include math.h
+#include "math.h"
 
 // + Add (num1 + num2)
 // Adds two integers and returns the sum
@@ -26,7 +26,7 @@ int subtract(int num1, int num2)
 
 // * Multiply (num1 * num2)
 // Multiplies two integers and returns the product
-int Multiply(int num1, int num2)
+int multiply(int num1, int num2)
 {
     int prod;
     prod = num1 * num2;
@@ -55,7 +55,7 @@ int modulus(int num1, int num2)
 }
 
 // < Left Shift (num1 << num2)
-// Performs a binary shift on num1 left by num2 spaces
+// Performs a binary left shift on num1 left by num2 spaces
 int lshift(int num1, int num2)
 {
     int L;
@@ -65,7 +65,7 @@ int lshift(int num1, int num2)
 }
 
 // > Right Shift (num1 >> num2)
-// Performs a binary shift on num1 left by num2 spaces
+// Performs a binary right shift on num1 left by num2 spaces
 int rshift(int num1, int num2)
 {
     int R;
@@ -112,4 +112,54 @@ int bINV(int num1, int num2)
     binv = ~num1;
 
     return binv;
+}
+
+//Selects the function based on the operator
+int math(int num1, int num2, char Operator)
+{
+    int ans;
+
+    switch (Operator)
+    {
+        case '+':
+            ans = add(num1, num2);
+            break;
+        case '-':
+            ans = subtract(num1, num2);
+            break;
+        case '*':
+            ans = multiply(num1, num2);
+            break;
+        case '/':
+            ans = divide(num1, num2);
+            break;
+        case '%':
+            ans = modulus(num1, num2);
+            break;
+        case '<':
+            ans = lshift(num1, num2);
+            break;
+        case '>':
+            ans = rshift(num1, num2);
+            break;
+        case '&':
+            ans = bAND(num1, num2);
+            break;
+        case '|':
+            ans = bOR(num1, num2);
+            break;
+        case '^':
+            ans = bXOR(num1, num2);
+            break;
+        case '~':
+            ans = bINV(num1, num2);
+            break;
+    }
+    return ans;
+}
+
+//main added to avoid compiler errors
+int main()
+{
+
 }

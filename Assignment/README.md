@@ -3,9 +3,9 @@ Author: Nicholas Klein
 
 Includes:
 
-   math.h    Authored by Russell Trafford
+- math.h, Authored by Russell Trafford
    
-   math.c
+- math.c
 
 
 Created on: September 10, 2018
@@ -16,10 +16,10 @@ Last Edit: September 10, 2018
 ## Using the code
 Import both math.h and math.c into your main.c file as shown below. Remove the main function from math.c.
 
-'''C
+```C
 #include <math.h>
 #include <math.c>
-'''
+```
 
 ## Contents and functions
 ### math.h

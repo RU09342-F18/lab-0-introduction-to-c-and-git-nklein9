@@ -1,14 +1,21 @@
 # Math Functions in C
 Author: Nicholas Klein
+
 Includes:
+
    math.h    Authored by Russell Trafford
+   
    math.c
 
+
 Created on: September 10, 2018
+
 Last Edit: September 10, 2018
+
 
 ## Using the code
 Import both math.h and math.c into your main.c file as shown below. Remove the main function from math.c.
+
 '''C
 #include <math.h>
 #include <math.c>
@@ -16,8 +23,7 @@ Import both math.h and math.c into your main.c file as shown below. Remove the m
 
 ## Contents and functions
 ### math.h
-Math.h was created on Aug 22, 2017, last edited on Sept 7, 2018, and authored by Russell Trafford it provides the objective of the lab and
-declares the math function used in math.c.
+Math.h was created on Aug 22, 2017, last edited on Sept 7, 2018, and authored by Russell Trafford it provides the objective of the lab and declares the math function used in math.c.
 
 ### math.c
 Math.c houses the main code of the math function as well as the individual functions for each mathmatical procedure.
